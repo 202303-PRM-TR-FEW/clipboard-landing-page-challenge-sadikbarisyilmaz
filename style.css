@@ -1,0 +1,25 @@
+body{
+    font-family: 'Noto Sans Lepcha', sans-serif;
+}
+
+#main{
+    background-image: url("./images/bg-header-mobile.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (min-width: 1024px){
+
+    #computer{
+        position: relative;
+        left: -120px;
+    }
+    
+    #main{
+        background-image: url("./images/bg-header-desktop.png");
+        background-position: top;
+        background-repeat: no-repeat;
+        padding: 80px 80px 40px 80px;
+    }
+}
